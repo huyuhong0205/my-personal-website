@@ -1,6 +1,6 @@
 ---
 import BaseHead from '../components/BaseHead.astro';
-import { Header, Footer } from '../components';
+import { Header, Footer, Intro, Skills, Portfolio } from '../components';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 ---
 
@@ -11,7 +11,14 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
   </head>
 
   <body>
-    <Header />
+    <Header client:load />
+
+    <main class="pt-16 min-h-screen">
+      <Intro />
+      <Skills />
+      <Portfolio />
+    </main>
+
     <Footer />
   </body>
 </html>
