@@ -12,8 +12,8 @@ type Props = {
 export default function SkillItem({ skill }: Props) {
   /* JSX ---------------------------------------------------------- */
   return (
-    <li className="list-none max-w-[465px] p-4">
-      <div className="flex gap-4 pb-1 mb-2 border-b-2 border-neutral-300">
+    <li className="list-none max-w-[465px] p-4 bg-neutral-200/25 rounded-lg">
+      <div className="flex gap-4 pb-2 mb-2 border-b-[0.5px] border-neutral-300">
         {skill.titles.map((title) => (
           <h3 key={title.skillTitle} className="flex items-center text-xl">
             <img
@@ -21,7 +21,7 @@ export default function SkillItem({ skill }: Props) {
               alt={`${title.skillTitle}`}
               className="h-7 mr-1"
             />
-            <span className="tracking-wider">{title.skillTitle}</span>
+            <span className="tracking-wide">{title.skillTitle}</span>
           </h3>
         ))}
       </div>
