@@ -11,7 +11,7 @@ import { skills } from '../../data/skills';
 export default function Skills() {
   /* JSX ---------------------------------------------------------- */
   return (
-    <section className="py-8">
+    <section className="my-16">
       <SectionTitle>Skills</SectionTitle>
 
       <div className="flex justify-center">
