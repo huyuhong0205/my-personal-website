@@ -17,7 +17,7 @@ export default function SkillItem({ skill }: Props) {
         {skill.titles.map((title) => (
           <h3 key={title.skillTitle} className="flex items-center text-xl">
             <img
-              src={`../../../public/${title.skillIcon}.png`}
+              src={`/${title.skillIcon}.png`}
               alt={`${title.skillTitle}`}
               className="h-7 mr-1"
             />
