@@ -7,9 +7,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        primary:
-          " 'm plus rounded 1c', 'noto sans tc', 'Verdana', 'sans-serif' ",
-        code: " Menlo, Consolas, 'IBM Plex Mono', monospace ",
+        title: " 'm plus rounded 1c', 'sans-serif' ",
       },
     },
   },
