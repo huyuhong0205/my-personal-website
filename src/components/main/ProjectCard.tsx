@@ -16,14 +16,14 @@ export default function ProjectCard({ project }: Props) {
   return (
     <a
       href={`/project/${href}`}
-      className="group flex flex-col md:flex-row min-h-[200px] max-w-[400px] md:max-w-full md:w-[85%] p-3 mx-3 bg-neutral-200/25 rounded-lg"
+      className="group flex flex-col md:flex-row min-h-[200px] max-w-[400px] md:max-w-full md:w-[85%] p-3 mx-3 bg-neutral-200/25 hover:bg-neutral-200 rounded-lg transition-colors duration-200"
     >
       <figure className="md:min-h-[180px] md:max-w-[300px] mb-3 md:mb-0 overflow-hidden rounded-lg md:mr-4">
         <img src={heroImage} className="h-full w-full object-cover" />
       </figure>
 
       <div className="flex flex-col gap-2">
-        <h4 className="font-medium text-xl">{title}</h4>
+        <h4 className="font-title font-medium text-xl">{title}</h4>
         <p className="text-neutral-700">{description}</p>
         <div className="flex flex-wrap gap-2 mb-3">
           {technic.map((technicName) => (
