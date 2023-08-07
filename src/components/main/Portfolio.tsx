@@ -11,7 +11,7 @@ import { projects } from '../../data/projects';
 export default function Portfolio() {
   /* JSX ---------------------------------------------------------- */
   return (
-    <section>
+    <section className="mb-8">
       <SectionTitle>Portfolio</SectionTitle>
 
       <section className="flex flex-col items-center gap-6">
