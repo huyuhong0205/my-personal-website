@@ -13,7 +13,15 @@ export const projects: Project[] = [
     heroImage: 'hero-full-stack-airbnb-clone.png',
     description:
       'This is a full-stack web application build from scratch by my self for practicing web development skills.',
-    technic: ['Typescript', 'React', 'Node.js', 'Express', 'MongoDB', 'RWD'],
+    technic: [
+      'Typescript',
+      'React',
+      'Sass',
+      'Node.js',
+      'Express',
+      'MongoDB',
+      'RWD',
+    ],
   },
   {
     title: 'React native expense tracking app',
