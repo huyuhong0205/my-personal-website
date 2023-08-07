@@ -14,11 +14,11 @@ export default function Portfolio() {
     <section className="mb-8">
       <SectionTitle>Portfolio</SectionTitle>
 
-      <section className="flex flex-col items-center gap-6">
+      <div className="flex flex-col items-center gap-6">
         {projects.map((project) => (
           <ProjectCard key={project.href} project={project} />
         ))}
-      </section>
+      </div>
     </section>
   );
 }
