@@ -88,6 +88,9 @@ body {
 }
 
 #markdown code:not(#markdown pre code) {
+  padding: 0 0.5rem;
+  border-radius: 0.2rem;
+
   color: #232323 !important;
   background-color: #e5e5e588 !important;
 }
