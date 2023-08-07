@@ -18,14 +18,14 @@ export const projects: Project[] = [
   {
     title: 'React native expense tracking app',
     href: 'track-expenses',
-    heroImage: 'track-expenses.png',
+    heroImage: 'hero-react-native-expense-tracking-app.png',
     description: 'A mobile app build with react native for expense tracking.',
     technic: ['Typescript', 'React Native', 'Expo', 'Realm'],
   },
   {
     title: 'My personal website',
     href: 'my-personal-website',
-    heroImage: 'my-personal-website.png',
+    heroImage: 'hero-my-personal-website.png',
     description:
       'My personal website built using the Astro framework and React components.',
     technic: ['Typescript', 'Astro', 'React', 'Tailwind css', 'RWD'],
