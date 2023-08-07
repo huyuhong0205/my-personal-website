@@ -8,7 +8,7 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    title: 'Full stack airbnb clone',
+    title: 'Full stack Airbnb clone',
     href: 'full-stack-airbnb-clone',
     heroImage: 'hero-full-stack-airbnb-clone.png',
     description:
@@ -16,7 +16,7 @@ export const projects: Project[] = [
     technic: ['Typescript', 'React', 'Sass', 'Node.js', 'Express', 'MongoDB'],
   },
   {
-    title: 'React native expense tracking app',
+    title: 'React Native expense tracking app',
     href: 'track-expenses',
     heroImage: 'hero-react-native-expense-tracking-app.png',
     description: 'A mobile app build with react native for expense tracking.',
