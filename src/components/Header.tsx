@@ -1,7 +1,7 @@
 /* React */
 // import React from 'react';
 /* React icons */
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { ImGithub } from 'react-icons/Im';
 
 /* Components */
 import HeaderLink from './HeaderLink';
@@ -21,7 +21,7 @@ export default function Header() {
             <HeaderLink
               href="https://github.com/huyuhong0205"
               title="Github"
-              Icon={FaGithub}
+              Icon={ImGithub}
             />
             {/* <HeaderLink
               href="https://www.linkedin.com/in/yu-hong-hu/"
