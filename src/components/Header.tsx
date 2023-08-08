@@ -24,7 +24,7 @@ export default function Header() {
               Icon={FaGithub}
             />
             <HeaderLink
-              href="[TODO] add Linkedin link"
+              href="https://www.linkedin.com/in/yu-hong-hu/"
               title="Linkedin"
               Icon={FaLinkedin}
             />
