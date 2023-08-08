@@ -1,7 +1,7 @@
 /* React */
 // import React from 'react';
 /* React icons */
-import { FaGithub, FaLinkedin } from 'react-icons/Fa';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 /* Components */
 import HeaderLink from './HeaderLink';
