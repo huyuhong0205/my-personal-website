@@ -26,7 +26,7 @@ export default function SkillItem({ skill }: Props) {
         ))}
       </div>
 
-      <ul className="list-disc list-outside pl-5 flex flex-col gap-1">
+      <ul className="list-disc list-outside pl-5 flex flex-col gap-2">
         {skill.descriptions.map((description) => (
           <li key={description}>{description}</li>
         ))}
