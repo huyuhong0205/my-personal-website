@@ -23,11 +23,11 @@ export default function Header() {
               title="Github"
               Icon={FaGithub}
             />
-            <HeaderLink
+            {/* <HeaderLink
               href="https://www.linkedin.com/in/yu-hong-hu/"
               title="Linkedin"
               Icon={FaLinkedin}
-            />
+            /> */}
           </ul>
         </nav>
       </div>
