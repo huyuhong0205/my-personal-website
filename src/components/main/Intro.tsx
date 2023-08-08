@@ -30,11 +30,12 @@ export default function Intro() {
         </div>
 
         <p className="max-w-xl w-[90%] sm:w-[80%] mx-auto">
-          &nbsp;&nbsp;&nbsp;&nbsp;Lorem Ipsum is simply dummy text of the
-          printing and typesetting industry. Lorem Ipsum has been the industry's
-          standard dummy text ever since the 1500s, when an unknown printer took
-          a galley of type and scrambled it to make a type specimen book. It has
-          survived not only five centuries.
+          &nbsp;&nbsp;&nbsp;&nbsp; Programming is my hobby. I specialized in MCU
+          (microcontroller unit) firmware and system integration in college. By
+          chance, I learned about web development by chance and found it very
+          interesting, so I started to learn on my own. Currently, I am focusing
+          on front-end development, the goal is to become a full-stack software
+          developer.
         </p>
       </div>
     </section>
