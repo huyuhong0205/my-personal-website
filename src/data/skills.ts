@@ -13,9 +13,10 @@ export const skills: Skill[] = [
       { skillTitle: 'CSS', skillIcon: 'css' },
     ],
     descriptions: [
-      'Familiar with HTML5 semantic tags.',
-      'Using Flex box and Grid to achieve flexible page layout and alignment.',
+      'Use semantic HTML5 tags to improve webpage SEO.',
+      'Implementing various page layouts using CSS flex box and grid.',
       'Utilize media queries and flexible layouts to achieve RWD across various screen sizes.',
+      'Experienced in using the Sass preprocessor and the Tailwind CSS framework.',
     ],
   },
   {
@@ -26,7 +27,6 @@ export const skills: Skill[] = [
     descriptions: [
       'Familiar with the basics of JavaScript and the new features of ES6.',
       'Using the Fetch API to make asynchronous requests for handling API calls.',
-      "Familiar with using TypeScript's types and generics.",
       'Experienced in using TypeScript with React, Node.js, and various libraries.',
     ],
   },
@@ -34,7 +34,8 @@ export const skills: Skill[] = [
     titles: [{ skillTitle: 'React, React Native', skillIcon: 'react' }],
     descriptions: [
       "Familiar with React's functional components and common hooks.",
-      'Experienced in using common React libraries such as React Redux, Redux Toolkit, and React Router Dom.',
+      'Using React Redux and Redux Toolkit to manage states.',
+      'Building a Single Page Application (SPA) website using React Router.',
     ],
   },
   {
