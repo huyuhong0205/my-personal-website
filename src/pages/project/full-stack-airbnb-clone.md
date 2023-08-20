@@ -31,6 +31,7 @@ My server is hosted on [Render's](https://render.com/) free plan there are some 
 
 - Typescript
 - React
+- Redux
 - Sass
 - Node.js
 - Express
